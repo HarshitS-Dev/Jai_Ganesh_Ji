@@ -779,3 +779,19 @@ body{
     border-radius: 0 0 6vw 3vw;
     translate: 4vw;
 }
+.laddusleft{
+    translate: 12vw -6vw;
+}
+.laddusright{
+    translate: -12vw -6vw;
+}
+.ladduline{
+    display: flex;
+    justify-content: center;
+}
+.laddu{
+    width: 2vw;
+    height: 2vw;
+    background-color: yellow;
+    border-radius: 50%;
+}
