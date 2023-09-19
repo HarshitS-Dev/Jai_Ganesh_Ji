@@ -170,11 +170,13 @@ body{
     justify-content: center;
 }
 #lefthandtotal{
+    z-index: -1;
     display: flex;
     justify-content: center;
     translate: 1vw;
 }
 #righthandtotal{
+    z-index: -2;
     display: flex;
     justify-content: center;
     translate: -2vw;
@@ -681,7 +683,7 @@ body{
     border-radius: 50%;
     background-color: black;
     border: 0.5 solid gray;
-    transform: translate(0,2vw);
+    transform: translate(0,3.5vw);
 }
 #earpinkleft{
     position: absolute;
@@ -779,3 +781,46 @@ body{
     border-radius: 0 0 6vw 3vw;
     translate: 4vw;
 }
+.laddusleft{
+    translate: 12vw -6vw;
+}
+.laddusright{
+    translate: -12vw -6vw;
+}
+.ladduline{
+    display: flex;
+    justify-content: center;
+}
+.laddu{
+    width: 2vw;
+    height: 2vw;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.garland{
+    position: absolute;
+    width: 3vw;
+    height: 9vw;
+    background-color: transparent;
+    border: 1vw solid gold;
+}
+#garlandpart1{
+    border-top: 0;
+    border-radius: 10vw 0 0vw 10vw;
+    translate: -5vw -5.5vw;
+    rotate: -15deg;
+}
+#garlandpart2{
+    height: 2vw;
+    border-radius: 0 0 10vw 10vw;
+    translate: -0vw 0.4vw;
+    rotate: 0;
+}
+#garlandpart3{
+    border-top: 0;
+    border-radius: 0 10vw 10vw 0;
+    translate: 5vw -5.5vw;
+    rotate: 15deg;
+}
+
+/* done */
