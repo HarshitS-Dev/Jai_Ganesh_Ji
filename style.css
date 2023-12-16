@@ -1,3 +1,5 @@
+
+
 body{
     text-align: center;
     background-color: blueviolet;
@@ -470,7 +472,7 @@ body{
     height: 4vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 3px 0px 0px 0px black; 
+    box-shadow: 0.3vw 0px 0px 0px black; 
     transform: rotate(-45deg);
 }
 #eyeleft{
@@ -480,7 +482,7 @@ body{
     height: 3.5vw;
     background-color: white;
     border-radius: 50%;
-    box-shadow: 3px 0px 0px 0px black; 
+    box-shadow: 0.3vw 0px 0px 0px black; 
     transform: rotate(-45deg) translate(2vw, -2.5vw);
 }
 #righteyebrow{
@@ -489,7 +491,7 @@ body{
     height: 4vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: -3px 0px 0px 0px black; 
+    box-shadow: -0.3vw 0px 0px 0px black; 
     transform: rotate(45deg);
 }
 #eyeright{
@@ -499,7 +501,7 @@ body{
     height: 3.5vw;
     background-color: white;
     border-radius: 50%;
-    box-shadow: -3px 0px 0px 0px black; 
+    box-shadow: -0.3vw 0px 0px 0px black; 
     transform: rotate(45deg) translate(-2vw, -2.5vw);
 }
 
@@ -602,7 +604,7 @@ body{
     height: 4.3vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 15px 5px 2px 0px rgb(3, 252, 231); 
+    box-shadow: 1.5vw 0.5vw 0.2vw 0px rgb(3, 252, 231); 
     transform: rotate(90deg) translate(7vw,0vw);
 }
 #shadow2left{
@@ -612,7 +614,7 @@ body{
     height: 4.3vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 10px 3px 2px 0px rgb(3, 252, 231); 
+    box-shadow: 1vw 0.3vw 0.2vw 0px rgb(3, 252, 231); 
     transform: rotate(90deg) translate(5vw,0vw);
 }
 #shadow3left{
@@ -622,7 +624,7 @@ body{
     height: 4.3vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 6px 2px 2px 0px rgb(3, 252, 231); 
+    box-shadow: 0.6vw 0.2vw 0.2vw 0px rgb(3, 252, 231); 
     transform: rotate(90deg) translate(3vw,0vw);
 }
 #shadow4left{
@@ -632,7 +634,7 @@ body{
     height: 3vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 2px 4px 10px 0px rgb(3, 252, 231); 
+    box-shadow: 0.2vw 0.4vw 1vw 0px rgb(3, 252, 231); 
     transform: rotate(45deg) translate(1.7vw,1.7vw);
 }
 #shadow1right{
@@ -642,7 +644,7 @@ body{
     height: 4vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 20px 5px 2px 0px rgb(3, 252, 231); 
+    box-shadow: 2vw 0.5vw 0.2vw 0px rgb(3, 252, 231); 
     transform: rotate(90deg) translate(7vw,0vw);
 }
 #shadow2right{
@@ -652,7 +654,7 @@ body{
     height: 4vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 10px 3px 2px 0px rgb(3, 252, 231); 
+    box-shadow: 1vw 0.3vw 0.2vw 0px rgb(3, 252, 231); 
     transform: rotate(90deg) translate(5vw,0vw);
 }
 #shadow3right{
@@ -662,7 +664,7 @@ body{
     height: 4vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 6px 2px 2px 0px rgb(3, 252, 231); 
+    box-shadow: 0.6vw 0.2vw 0.2vw 0px rgb(3, 252, 231); 
     transform: rotate(90deg) translate(3vw,0vw);
 }
 #shadow4right{
@@ -672,7 +674,7 @@ body{
     height: 4vw;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 4px 4px 0px 0px rgb(3, 252, 231); 
+    box-shadow: 0.4vw 0.4vw 0px 0px rgb(3, 252, 231); 
     transform: rotate(45deg) translate(1.7vw,1vw);
 }
 
@@ -756,7 +758,7 @@ body{
     height: 1vw;
     background-color: brown;
     border-radius: 50%;
-    box-shadow: 0px -3px 2px 0px orange; 
+    box-shadow: 0px -0.3vw 0.2vw 0px orange; 
 }
 #shadowlikecrown2{
     display: flex;
